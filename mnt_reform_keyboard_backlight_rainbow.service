@@ -1,0 +1,11 @@
+[Unit]
+Description=MNT Reform keyboard backlight rainbow animation
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/mnt_reform_keyboard_backlight_rainbow.py --intensity 50 --refresh-every-sec 2
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
