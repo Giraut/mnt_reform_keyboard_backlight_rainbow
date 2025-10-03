@@ -1,0 +1,7 @@
+Package: mnt-reform-keyboard-backlight-rainbow
+Version:
+Maintainer: Rosco <roskis@runbox.com>
+Description: MNT Reform keyboard backlight rainbow
+Homepage: https://github.com/Giraut/mnt_reform_keyboard_backlight_rainbow/
+Architecture: all
+Depends: python3 (>=3.5), python3-setproctitle, systemd-sysv

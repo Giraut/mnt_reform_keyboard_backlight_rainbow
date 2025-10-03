@@ -9,16 +9,26 @@ A small program and systemd service to create a rainbow animation with the backl
 
 ## Installation
 
+### Installing the pre-built .deb package
+
+See [https://github.com/Giraut/ppa](https://github.com/Giraut/ppa) to add the PPA repository to your APT sources.
+
 ```
-# apt install python3-setproctitle
-# install -m 755 ./mnt_reform_keyboard_backlight_rainbow.py /usr/local/bin
-# install -m 644 ./mnt_reform_keyboard_backlight_rainbow.service /lib/systemd/system
+sudo apt install mnt-reform-keyboard-backlight-rainbow
+```
+
+### Manual installation
+
+```
+sudo apt install python3-setproctitle
+sudo install -m 755 ./mnt_reform_keyboard_backlight_rainbow.py /usr/local/bin
+sudo install -m 644 ./mnt_reform_keyboard_backlight_rainbow.service /lib/systemd/system
 ```
 
 ### Starting the service
 
 ```
-# systemctl enable --now mnt_reform_keyboard_backlight_rainbow.service
+sudo systemctl enable --now mnt_reform_keyboard_backlight_rainbow.service
 ```
 
 
