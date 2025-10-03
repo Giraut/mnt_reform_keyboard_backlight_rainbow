@@ -4,4 +4,5 @@
 # tell systemd to reload
 systemctl daemon-reload
 
+# Enable and start the service
 systemctl enable --now mnt_reform_keyboard_backlight_rainbow
